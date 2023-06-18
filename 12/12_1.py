@@ -8,8 +8,12 @@ def repeat_lyrics() :
     print_lyrics()
 
 def greeting(name) :
-    print(f' Hello {name}\n how are you ?')
+    return(f' Hello {name}\n how are you ?')
     
 def do_twice(f):
     f()
     f()
+
+def twice(f):
+    print(f)
+    print(f)
