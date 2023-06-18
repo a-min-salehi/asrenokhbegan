@@ -10,6 +10,6 @@ x = int(input('enter x :'))
 y = int(input('enter y :'))
 z = int(input('enter z :'))
 
-a , b , c = sort(x,y,z)
+aa , bb , cc = sort(x,y,z)
 
-print(a , b , c)
+print(aa , bb , cc)

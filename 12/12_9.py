@@ -10,7 +10,7 @@ Scope()
 
 def setScope () :
     global scope
-    scope='local'
+    scope='locall'
 
     
 print(f"scope = {scope}")
