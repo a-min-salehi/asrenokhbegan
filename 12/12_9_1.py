@@ -4,6 +4,7 @@ def f():
     y = 15
     print(y)
 
-print(y)
 
-local
+print(x)
+f()
+# print(y) can be cause of an error 

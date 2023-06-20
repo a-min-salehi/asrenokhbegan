@@ -14,7 +14,7 @@ def check_number_order(n):
     return "Not Sorted"
 
 
-n = int(input("Enter a number: "))
+n = int(input("Enter a number: ")) #639
 
 # Call the function to check the order of digits
 result = check_number_order(n)
