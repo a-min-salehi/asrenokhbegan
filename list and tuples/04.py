@@ -11,8 +11,11 @@ slist = []
 for i in range(n):
     s = input('Enter scores in a line , use space between scores :\n')
     s = s.split()
+    print(s)
     s = avg(s)
+    print(s)
     slist.append(s)
+    print(slist)
 
 print()
 
