@@ -1,6 +1,3 @@
-s = 'abcd'
-l =[1,2,3,4]
+print ((4, 5) < (3, 5))
 
-flist = list(zip(s,l))
-
-print(flist )
+print((0,12,100)>(0,11,11000000))

@@ -1,6 +1,7 @@
 s1 = {1,2,3,4,5}
 s2 = {'a','b',2,4}
 s3 = set(range(1,8,2))
+print(s3)
 s4 = {2,4}
 
 #print(5 not in s1)
