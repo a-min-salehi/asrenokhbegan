@@ -24,3 +24,5 @@ print (price.setdefault ('flutter'  , 28), '\n')
 
 
 print (price)
+
+print ( dictt.fromkeys (k2 , k ) , '\n' )
