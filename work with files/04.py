@@ -1,13 +1,9 @@
-def sortf(file_name):
-    file = open(file_name,'r')
-    lines= file.readlines()
-    lines.sort(key=len)
-    file.close()
-    for i in lines:
-        if i == '\n':
-            continue
-        print(i)
+file1 = open('tst.txt', 'r')
+file2 = open('tst1.txt', 'w')
 
-filename = input('Enter the file name : ')
+txt = file1.read()
 
-sortf(filename)
+file2.write(txt)
+
+file1.close()
+file2.close()

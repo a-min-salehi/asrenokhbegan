@@ -1,9 +1,3 @@
-file1 = open('tst.txt', 'r')
-file2 = open('tst1.txt', 'w')
-
-txt = file1.read()
-
-file2.write(txt)
-
-file1.close()
-file2.close()
+f = open("tst.txt", "r")
+for x in f:
+  print(x)
