@@ -1,0 +1,19 @@
+{
+  "recipes": [
+    {
+      "name": "Chocolate Chip Cookies",
+      "ingredients": ["flour", "sugar", "butter", "chocolate chips"],
+      "instructions": "1. Preheat the oven... 2. Mix the ingredients... 3. Bake for 10-12 minutes..."
+    },
+    {
+      "name": "Vegetable Stir-Fry",
+      "ingredients": ["carrots", "broccoli", "bell peppers", "soy sauce"],
+      "instructions": "1. Chop the vegetables... 2. Heat oil in a pan... 3. Add vegetables and soy sauce..."
+    },
+    {
+      "name": "Pasta Carbonara",
+      "ingredients": ["spaghetti", "bacon", "eggs", "Parmesan cheese"],
+      "instructions": "1. Cook the pasta... 2. Fry the bacon... 3. Beat the eggs and cheese... 4. Combine all ingredients..."
+    }
+  ]
+}

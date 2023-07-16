@@ -1,0 +1,107 @@
+<albums>
+    <album>
+        <title>Thriller</title>
+        <artist>Michael Jackson</artist>
+        <genre>Pop</genre>
+        <year>1982</year>
+        <tracks>
+            <track>Billie Jean</track>
+            <track>Beat It</track>
+            <track>Thriller</track>
+        </tracks>
+    </album>
+	<album>
+        <title>Gipsy Kings</title>
+        <artist>Gipsy Kings</artist>
+        <genre>Felamenco</genre>
+        <year>1987</year>
+        <tracks>
+            <track>Bammboleo</track>
+            <track>Un Amor</track>
+            <track>Amor,Amor</track>
+			<track>A Mi Manera</track>
+        </tracks>
+    </album>
+	<album>
+        <title>Tanhaee</title>
+        <artist>Andy</artist>
+        <genre>Pop</genre>
+        <year>1995</year>
+        <tracks>
+            <track>Khoshgel</track>
+            <track>Maadar</track>
+            <track>Jadehe Ehsas</track>
+			<track>Tanhaee</track>
+        </tracks>
+    </album>
+	<album>
+        <title>MosaIque</title>
+        <artist>Gipsy Kings</artist>
+        <genre>Felamenco</genre>
+        <year>1989</year>
+        <tracks>
+            <track>Volare</track>
+            <track>Soy</track>
+            <track>Passion</track>
+        </tracks>
+    </album>
+	<album>
+        <title>Balla</title>
+        <artist>Andy</artist>
+        <genre>Pop</genre>
+        <year>1990</year>
+        <tracks>
+            <track>Shaytoon Balla</track>
+            <track>Negah</track>
+            <track>Atish</track>
+			<track>Khodaye Asemoona</track>
+        </tracks>
+    </album>
+	<album>
+        <title>Allegria</title>
+        <artist>Gipsy Kings</artist>
+        <genre>Felamenco</genre>
+        <year>1982</year>
+        <tracks>
+            <track>Allegria</track>
+            <track>Un Amor</track>
+            <track>Recuerda</track>
+			<track>A Mi Manera</track>
+        </tracks>
+    </album>
+    <album>
+        <title>Abbey Road</title>
+        <artist>The Beatles</artist>
+        <genre>Rock</genre>
+        <year>1969</year>
+        <tracks>
+            <track>Come Together</track>
+            <track>Here Comes the Sun</track>
+            <track>Something</track>
+        </tracks>
+    </album>
+	<album>
+        <title>Beegharar</title>
+        <artist>Andy</artist>
+        <genre>Pop</genre>
+        <year>2013</year>
+        <tracks>
+            <track>Entezar</track>
+            <track>Dokhtare Irooni</track>
+            <track>Ghasre Kaghazi</track>
+			<track>Pariye Shahre Ghesseh</track>
+        </tracks>
+    </album>
+	<album>
+        <title>Luna de Fuego</title>
+        <artist>Gipsy Kings</artist>
+        <genre>Felamenco</genre>
+        <year>1983</year>
+        <tracks>
+            <track>Ruptura</track>
+            <track>Calaverada</track>
+            <track>Galaxia</track>
+			<track>Amor d'un dia</track>
+        </tracks>
+    </album>
+</albums>

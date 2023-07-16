@@ -1,0 +1,32 @@
+<catalog>
+    <product>
+        <id>P001</id>
+        <name>Smartphone</name>
+        <price>515.0</price>
+        <description>A high-end smartphone with advanced features.</description>
+    </product>
+    <product>
+        <id>P002</id>
+        <name>Laptop</name>
+        <price class="expensive">1000</price>
+        <description>A powerful laptop for professional use.</description>
+    </product>
+    <product>
+        <id>P003</id>
+        <name>Headphones</name>
+        <price>51.5</price>
+        <description>High-quality headphones for immersive audio experience.</description>
+    </product>
+	<product>
+        <id>P004</id>
+        <name>Felamenco Guitar</name>
+        <price class="expensive">680</price>
+        <description>A professional Felamenco Guitar.</description>
+    </product>
+	<product>
+        <id>P005</id>
+        <name>Tennis Rackets</name>
+        <price>38.11</price>
+        <description>Tennis Rackets 2 Players Recreational for Beginners.</description>
+    </product>
+</catalog>

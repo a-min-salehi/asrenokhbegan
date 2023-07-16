@@ -1,0 +1,32 @@
+<library>
+    <book>
+        <title>1984</title>
+        <author>George Orwell</author>
+        <genre>Dystopian</genre>
+        <quantity>3</quantity>
+    </book>
+    <book>
+        <title>Dark Hourse</title>
+        <author>Todd Rose &amp; Ogi Ogas</author>
+        <genre>Education</genre>
+        <quantity>5</quantity>
+    </book>
+    <book>
+        <title>Pride and Prejudice</title>
+        <author>Jane Austen</author>
+        <genre>Romance</genre>
+        <quantity>7</quantity>
+    </book>
+    <book>
+        <title>Think Python</title>
+        <author>Allen B. Downey</author>
+        <genre>Education</genre>
+        <quantity>7</quantity>
+    </book>
+    <book>
+        <title>The Catcher in the Rye</title>
+        <author>J.D. Salinger</author>
+        <genre>Fiction</genre>
+        <quantity>2</quantity>
+    </book>
+</library>
