@@ -4,7 +4,7 @@ if 0< a <10:
         print("e1")
     else:
         print("o1")
-if 10 <= a < 100:
+elif 10 <= a < 100:
     if a%2==0:
         print("e2")
     else:

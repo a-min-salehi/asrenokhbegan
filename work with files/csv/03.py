@@ -9,7 +9,7 @@ data = [
 ]
 
 # Open the CSV file in write mode
-with open('output.csv', 'w', newline='') as file:
+with open('data.csv', 'w', newline='') as file:
     # Create a CSV writer object
     csv_writer = csv.writer(file)
 

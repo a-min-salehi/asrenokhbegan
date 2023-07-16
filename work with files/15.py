@@ -1,6 +1,6 @@
 import os
 
-file_path = "file.txt"
+file_path = "binaryfile.bin"
 
 if os.path.exists(file_path):
     file_size = os.path.getsize(file_path)

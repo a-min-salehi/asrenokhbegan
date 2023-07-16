@@ -3,6 +3,7 @@ count = 0
 while count < n:
     count +=1
     if count%5 == 0:
+        print("hop")
         continue
     print(count)
     

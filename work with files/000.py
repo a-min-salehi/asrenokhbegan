@@ -1,0 +1,6 @@
+file = open("data", 'r')
+content = file.read()
+print(content)
+lines = file.readlines()
+print(lines)
+file.close()

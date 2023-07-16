@@ -1,4 +1,4 @@
-myfile = open('test.txt', 'r')
+myfile = open('tst.txt', 'r')
 
 txt = myfile.read()
 
