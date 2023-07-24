@@ -1,6 +1,6 @@
 <library>
-    <book>
-        <title>1984</title>
+    <book class="title">
+        <title >1984</title>
         <author>George Orwell</author>
         <genre>Dystopian</genre>
         <quantity>3</quantity>

@@ -7,7 +7,7 @@ root = tree.getroot()
 # Extract and display product details
 for product in root.findall('product'):
     price = product.find('price')
-    if int(price.text) > 500 :
+    if int(price.text) > 500:
         price.set('class', 'expensive')
     else:
         price.text = str(int(price.text) + 0.03* int(price.text))
