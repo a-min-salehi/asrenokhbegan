@@ -1,3 +1,3 @@
 while True:
-    print("000")
+    pass
    

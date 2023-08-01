@@ -13,3 +13,5 @@ z = int(input('enter z :'))
 aa , bb , cc = sort(x,y,z)
 
 print(aa , bb , cc)
+
+print(sort(6,16,8))

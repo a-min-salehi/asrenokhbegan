@@ -8,7 +8,7 @@ P_circle(2)
       return r*2*PI
 
 def p_triangle(a,b,c):
-    return sum((a,b,c))
+    return (sum((a,b,c)))
 
 
 def a_circle(r):

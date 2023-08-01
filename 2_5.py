@@ -5,3 +5,12 @@ t = d/s
 t1 = int(t//1)
 t2 = round(t%1 * 60)
 print("time = " , t1,":",t2)
+
+"this is a comment"
+
+'''
+slakjclkZ
+aKLDJKLAx
+adkdjjk
+'''
+
