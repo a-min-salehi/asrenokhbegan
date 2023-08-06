@@ -7,7 +7,7 @@ def check_number_order(n):
         return "Ascending"
 
 
-    if num_str == ''.join(sorted(num_str, reverse=True)):
+    elif num_str == ''.join(sorted(num_str, reverse=True)):
         return "Descending"
 
 

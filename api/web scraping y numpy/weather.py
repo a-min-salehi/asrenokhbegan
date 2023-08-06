@@ -1,8 +1,8 @@
 import requests
 
 params = {
-  'access_key': '',
-  'query': 'London'
+  'access_key': '7f98192797a8978433ec110098505805',
+  'query': 'Yazd '
 }
 
 api_result = requests.get('http://api.weatherstack.com/current', params)
