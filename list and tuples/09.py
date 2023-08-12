@@ -6,7 +6,7 @@ def bi_search(n_list, n):
     if n_list[mid] == n:
         return True
 
-    if n_list[mid] > n:
+    elif n_list[mid] > n:
         return bi_search(n_list[:mid], n)
     else:
         return bi_search(n_list[mid + 1:], n)

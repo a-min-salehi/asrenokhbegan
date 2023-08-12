@@ -10,11 +10,14 @@ def remove_odd(l):
     return [x for x in l if x % 2 == 0]
 
 
+
+
 n = input('enter numbers :')
 n = n.split()
 
-
 for i in range(len(n)) :
     n[i] = int(n[i])
+
+filter_odd = list(filter(lambda x : x%2 == 0 ,n))
 
 print(del_odd(n))
