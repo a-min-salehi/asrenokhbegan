@@ -21,7 +21,7 @@ class Bird(Animal, Flying):
         Flying.__init__(self, can_fly)
 
 
-blue = Bird("parrot")
+blue = Bird("makao")
 
 blue.fly()
 

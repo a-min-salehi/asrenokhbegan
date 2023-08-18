@@ -19,7 +19,7 @@ class Student(Person):
 p1 = Person("mark", "Zuck")
 p1.printname()
 
-s1 = Student("max", "jackson", 18)
+s1 = Student("max", "jackson", 12)
 
 s1.printname()
 s1.printgarde()

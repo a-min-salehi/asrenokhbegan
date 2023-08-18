@@ -27,8 +27,12 @@ class Parrot(Bird):
     def make_sound(self):
         print(f"{self.species} is chirping")
 
+    def imitate(self, sound):
+        print(f"{self.species} : {sound} {sound}")
 
-blue = Parrot("parrot")
+
+blue = Parrot("makao")
 
 blue.make_sound()
 blue.fly()
+blue.imitate("salam")

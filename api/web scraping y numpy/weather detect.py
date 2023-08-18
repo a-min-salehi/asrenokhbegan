@@ -209,7 +209,7 @@ def cloudy():
 
 params = {
     'access_key': '7f98192797a8978433ec110098505805',
-    'query': 'Sidney'
+    'query': 'London'
 }
 
 api_result = requests.get('http://api.weatherstack.com/current', params)

@@ -13,6 +13,6 @@ class Bird(Animal, CanFly):
         super().__init__(species)
 
 
-blue = Bird("parrot")
+blue = Bird("makao")
 
 blue.fly()
