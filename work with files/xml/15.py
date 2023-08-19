@@ -14,9 +14,9 @@ for i in range(len(data["players"])):
 
 # Add a new player to the team
 new_player = {
-    "name": "Alex Thompson",
+    "name": "Sam OstadAsadi",
     "position": "Defender",
-    "number": 6
+    "number": 7
 }
 data['players'].append(new_player)
 

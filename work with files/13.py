@@ -1,9 +1,9 @@
 from random import choice
 
 with open("lottery.txt") as file:
-    participants = set(file.read().splitlines())
+    participants = list(file.read().splitlines())
     print(participants)
 
-winner = choice(list(participants))
+winner = choice(participants)
 
 print(winner)

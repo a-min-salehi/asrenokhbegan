@@ -19,5 +19,5 @@ for i in range(n):
 
 print()
 
-for i in slist:
+for i in sorted(slist):
     print('*'*i)

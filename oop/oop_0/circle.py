@@ -29,7 +29,7 @@ except ValueError as e:
     print(e)
 
 try:
-    circle2 = Circle(1, 1, 2)
+    circle2 = Circle(1, 2, 2)
     print(circle2)
     print("Area:", circle2.calculate_area())
     print("Perimeter:", circle2.calculate_perimeter())

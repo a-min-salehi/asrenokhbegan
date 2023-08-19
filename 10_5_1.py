@@ -6,6 +6,8 @@ else:
     result_txt = txt.lower()
 
 print(result_txt)
+
+
         
         
     

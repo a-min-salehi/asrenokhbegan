@@ -2,7 +2,7 @@ food_items = {"bread","apple" ,"banana","milk","katchup","orange","cheese", "egg
 
 is_subset = lambda items: items.issubset(food_items)
 
-dairy_products = {"milk", "cheese", "yogurt","ice cream"}
+dairy_products = {"milk", "cheese", "yogurt","ice cream","dogh"}
 
 if is_subset(dairy_products):
     print("Dairy products are a subset of food items")
