@@ -1,6 +1,6 @@
 def Pow(a,b):
     x = a**b
-    #print (x)
+    # print (x)
     return x
 
 # global x
@@ -14,3 +14,5 @@ def square(x): # local x
 # print(x)
 
 print(square(9))
+
+print(f'answer Pow(2,3) = {Pow(2,3)}')

@@ -1,13 +1,13 @@
 def histogram (s):
     d = dict ()
-    for c in s :
-        if c == ' ':
+    for char in s :
+        if char == ' ':
             continue
         
-        elif c not in d :
-            d[c] = 1
+        elif char not in d :
+            d[char] = 1
         else :
-            d[c] += 1
+            d[char] += 1
 
     return d
 
@@ -21,4 +21,11 @@ def sortedPrint_h (h) :
 
     for i in sorted (h) :
         print (i , h [i])
+
+
+def value_sort_h (my_dict):
+    dict_item = my_dict.items() # -> {'s': 1,"a": 2 , ... } >>> [('s',1),("a",2), ...]
+    sorted_dict = dict (sorted(dict_item , key=lambda x: x[1], reverse= True))
+    for i in sorted_dict :
+        print (i , sorted_dict[i])
         

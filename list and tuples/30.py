@@ -1,8 +1,8 @@
 def reverse_look(d,v):
-    l = list()
-    for k in d :
-        if d[k] == v :
-            l.append(k)
-    return l
+    list_ = list()
+    for key in d :
+        if d[key] == v :
+            list_.append(key)
+    return list_
 
             

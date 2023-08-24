@@ -1,10 +1,5 @@
-def Scope():
-    scope='local'
-    print(f"scope = {scope}")
-
 scope ='global'
 
-Scope()
 
 
 
@@ -13,9 +8,6 @@ def setScope () :
     scope='locall'
 
     
-print(f"scope = {scope}")
-
-setScope()
-
-print(f"scope = {scope}")
-
+def Scope():
+    scope='local'
+    print(f"scope = {scope}")

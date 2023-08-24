@@ -1,4 +1,10 @@
 import math
 
-def f(n):
-    return math.sqrt(n)/ n
+x = int(input("hehehe: "))
+
+
+def f(x):
+    return math.sqrt(x) / x
+
+
+print(f(x))

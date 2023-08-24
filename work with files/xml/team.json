@@ -1,7 +1,10 @@
-{"team_name": "The Thunderbolts",
+{
+  "team_name": "The Thunderbolts",
   "players": [
     {"name": "David Johnson", "position": "Midfielder", "number": 7},
     {"name": "Michael Davis", "position": "Defender", "number": 4},
     {"name": "Robert Williams", "position": "Midfielder", "number": 11},
-    {"name": "Alex Thompson", "position": "Defender", "number": 6}
-  ]}
+    {"name": "max Thompson", "position": "Forward", "number": 10},
+    {"name": "Sam OstadAsadi", "position": "Defender", "number": 7}
+  ]
+}

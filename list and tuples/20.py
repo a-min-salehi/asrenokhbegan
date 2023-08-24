@@ -20,4 +20,5 @@ print(s1^s3)
 print(s2^s3)
 
 print(s4<s1)
-
+print(s2<s1)
+print(s1>s4)
