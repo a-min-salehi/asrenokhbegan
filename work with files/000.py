@@ -1,6 +1,8 @@
 file = open("data", 'r')
 content = file.read()
 print(content)
+file.seek(0)
 lines = file.readlines()
 print(lines)
+print(file.tell())
 file.close()

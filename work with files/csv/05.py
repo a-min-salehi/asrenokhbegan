@@ -5,7 +5,6 @@ with open('employees.csv', 'r') as file:
     # Create a CSV reader object with dictionary fieldnames
     csv_reader = csv.DictReader(file)
 
-
     # Iterate over each row in the CSV file
     for row in csv_reader:
         name = row['Name']

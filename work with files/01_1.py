@@ -1,7 +1,7 @@
 myfile = open('tst.txt', 'r')
 
 myfile.seek(43)
-txt = myfile.readline()
+txt = myfile.readlines()
 
 myfile.close()
 

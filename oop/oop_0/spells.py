@@ -47,8 +47,17 @@ class Spell:
         return Spell(quotient_name, quotient_power, quotient_speed, quotient_range, quotient_stamina), Spell(
             remainder_name, remainder_power, remainder_speed, remainder_range, remainder_stamina)
 
+    def __truediv__(self, other):
+        quotient_name = f"{self.name} // {other.name}"
+        quotient_power = self.power // other.power
+        quotient_speed = self.speed * 2 + other.speed
+        quotient_range = self.long_range - other.long_range
+        quotient_stamina = self.stamina // 2 - other.stamina
+        return Spell(quotient_name, quotient_power, quotient_speed, quotient_range, quotient_stamina)
+
     def __str__(self):
-        return f"{self.name} (Power: {self.power}) , (Speed: {self.speed}),(Range: {self.long_range}), (Stamina: {self.stamina}) "
+        return f"{self.name} (Power: {self.power}) , (Speed: {self.speed}),(Range: {self.long_range}), (" \
+               f"Stamina: {self.stamina})"
 
 
 # Using the Spell class
@@ -59,10 +68,9 @@ thunderstorm = Spell("Thunderstorm", 80, 100, 25, 45)
 combined_spell = icebolt + fireball
 subtracted_spell = thunderstorm - icebolt
 multiplied_spell = thunderstorm * fireball
-quotient_spell, remainder_spell = divmod(thunderstorm, icebolt)
+quotient_spell = thunderstorm / icebolt
 
 print("Combined Spell:", combined_spell)
 print("Subtracted Spell:", subtracted_spell)
 print("Multiplied Spell:", multiplied_spell)
 print("Quotient Spell:", quotient_spell)
-print("Remainder Spell:", remainder_spell)
