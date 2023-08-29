@@ -2,22 +2,22 @@ part A : this_func.py | that_func.py
 برنامه ای تابع محور بنویسید که با دیکشنری یک دفترچه تلفن ایجاد کند که"نام" کلید آن باشد و "شماره تلفن" ارزش آن ،ویژگی های زیر توابع برنامه اند
 
 
-1. add_contact(name , number)
+1. add_contact(d, name, number)
 نام و تلفن جدیدی به دفترچه اضافه نماید.
 
-2.delete_contact(name)
+2.delete_contact(d, name)
  نام و تلفنی را از دفترچه حذف نماید.
 
-3.search_by_name(name)
+3.search_by_name(d, name)
 شماره تلفنی را از طریق نام جست و جو کند . 
  
-4.search_by_number(number)
+4.search_by_number(d, number)
  نام شخصی را از طریق تلفن جست و جو کند. 
 
-5.change_number(name)
+5.change_number(d, name, new_number)
  شماره تلفن شخص خاصی را تغییر دهد . 
 
-6.change_name(number)
+6.change_name(d, number, new_name)
 نام تلفن خاصی را تغییر دهد.
 
 
